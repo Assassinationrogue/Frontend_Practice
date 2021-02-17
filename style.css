@@ -1,0 +1,15 @@
+:root{
+    --background_color_1:#D3D3D3;
+    --background_color_2:#2C5D3F;
+    --background_color_3:#759B84;
+    --background_color_4:#d6e1d8;	
+    --text_color_1:white;
+    --text_color_2:#A9A9A9;
+    	
+}
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
