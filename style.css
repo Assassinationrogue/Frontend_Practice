@@ -13,3 +13,6 @@
     margin:0px;
 }
 
+.background_img{
+    background-image: url('/images/image-hero-desktop.jpg');
+}
