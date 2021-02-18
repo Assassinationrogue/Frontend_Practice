@@ -13,6 +13,44 @@
     margin:0px;
 }
 
+body{
+    background-color: var(--background_color_1);
+}
+
+.main_body{
+    height:35px;
+}
+
 .background_img{
     background-image: url('/images/image-hero-desktop.jpg');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  height:1250%;
+}
+
+.logo_1{
+    color:var(--text_color_1);
+    margin-left: 5%;
+    text-shadow: black 5px 5px 10px;
+    padding-top: 20px;
+}
+
+.menu_list{
+    display: flex;
+    float: right;
+    list-style: none;
+    flex-wrap:wrap;
+    flex-flow: row;
+    gap: 12px;
+    margin-right: 9%;
+    
+}
+
+.content{
+    text-decoration: none;
+    color: var(--text_color_1);
+    text-shadow: black 5px 5px 10px;
 }
