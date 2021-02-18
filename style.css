@@ -21,14 +21,16 @@ body{
     height:35px;
 }
 
+
+
 .background_img{
     background-image: url('/images/image-hero-desktop.jpg');
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100% 50%;
-  background-repeat: no-repeat;
-  height:1250%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    height:1250%;
 }
 
 .logo_1{
@@ -36,6 +38,10 @@ body{
     margin-left: 5%;
     text-shadow: black 5px 5px 10px;
     padding-top: 20px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .menu_list{
